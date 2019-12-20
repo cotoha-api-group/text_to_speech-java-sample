@@ -8,8 +8,8 @@ COTOHA 音声合成API サンプルコード(Java)
 1. `sample_java.java`の16,17行目の`input client id here`及び`input client secret here`と書かれている部分にCOTOHA API Portalアカウントページで表示される`client id`及び`client secret`をそれぞれ入力してください。
 1. コマンド`javac -classpath [jar_dir]/*:. sample_java.java`でコンパイルしてください。
 1. `/sample_json`内のjsonファイルを参考にして、作成したい合成音声の設定を記載したjsonファイルを作成してください。以後、このjsonファイルを`[your_tts_json]`と表記します。
-1. コマンド`java -classpath [jar_dir]/*:. sample_java.java sample_java.java [your_tts_json]`を実行してください。実行したディレクトリに、合成音声が保存された`output.wav`が生成されます。
-また、コマンド`java -classpath [jar_dir]/*:. sample_java.java sample_java.java [your_tts_json] [output_wav_name]`を実行すると、合成音声が`[output_wav_name]`で指定したファイル名で保存されます。
+1. コマンド`java -classpath [jar_dir]/*:. sample_java [your_tts_json]`を実行してください。実行したディレクトリに、合成音声が保存された`output.wav`が生成されます。
+また、コマンド`java -classpath [jar_dir]/*:. sample_java [your_tts_json] [output_wav_name]`を実行すると、合成音声が`[output_wav_name]`で指定したファイル名で保存されます。
 
 **出力例**
 以下のように出力されれば、音声の生成が成功しています。
